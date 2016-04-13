@@ -1,5 +1,5 @@
 # ipdb
-  ip裤子来源 https://git.oschina.net/lionsoul/ip2region(谢谢原作者的辛苦整理)
+  ip裤子来源 https://git.oschina.net/lionsoul/ip2region (谢谢原作者的辛苦整理)
   脚本进了修改和添加功能
   是阿里的ip库是比较准的
   加入了内存缓存和是不是移3g网的功能(移动3g的裤子比较老了不一定准)
