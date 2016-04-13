@@ -6,15 +6,15 @@ import time
 from IpDB import IpDB
 
 
-def test_search():
-    algorithm = "b-tree"
+def test_search(cache=True):
+    algorithm = "binary" if cache else "b-tree"
 
     print("initializing %s..." % algorithm)
 
-    searcher = IpDB()
+    searcher = IpDB(cache)
     try:
         while True:
-            line = raw_input("ip2region>> ")
+            line = raw_input("ipdbn>> ")
             line = line.strip()
 
             if line == "":
