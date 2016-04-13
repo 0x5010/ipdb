@@ -8,6 +8,7 @@
 ### 运行效果如图
 >>python ./test_searcher.py
 
+```python
 initializing binary...
 ipdbn>> 114.114.114.114
 [Return]: 中国|华东|江苏省|南京市|0 in 0.031006 millseconds
@@ -16,6 +17,7 @@ ipdbn>> 112.5.74.74
 [Return]: 中国|华东|福建省|漳州市|移动 in 0.027832 millseconds
 [Return]: no_3g in 0.017832 millseconds
 ipdbn>> 
+```
 
 test_searcher就是使用方式
 
